@@ -1,6 +1,6 @@
 # Phase-DGS: Phase-guided Dynamic Gaussian Splatting from Unsynchronized Multi-view Video
 
-[**NeurIPS 2026**](https://neurips.cc/virtual/2026/loc/sydney/poster/154774) · [Project page](https://oc-dev74.github.io/Phase-DGS/) · Paper (coming soon) · Code (coming soon)
+[**NeurIPS 2026**](https://neurips.cc/virtual/2026/loc/sydney/poster/154774) · [Project page](https://oc-dev74.github.io/Phase-DGS/) · [Paper (arXiv)](https://arxiv.org/abs/2611.04666) · Code (coming soon)
 
 Hosung Jeon<sup>†1</sup>, Jun Young Jeong<sup>1</sup>, Sangwoon Kwak<sup>†1</sup>, Joonsoo Kim<sup>1</sup>, Sangmin Kim<sup>2</sup>, Jaesik Park<sup>2</sup>, Won-Sik Cheong<sup>1</sup>, Hyon-Gon Choo<sup>1</sup>
 
@@ -12,6 +12,7 @@ Dynamic Gaussian Splatting assumes that every camera captures the scene at the s
 
 ## News
 
+- The paper is available on [arXiv](https://arxiv.org/abs/2611.04666).
 - Phase-DGS has been accepted to NeurIPS 2026 as a poster.
 - Code will be released soon.
 
