@@ -1,0 +1,29 @@
+[project]
+name = "phase-dgs"
+version = "1.0.0"
+description = "Phase-DGS: phase-guided dynamic Gaussian splatting from unsynchronized multi-view video"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "numpy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+# tools/ and Prepare_dataset_phaseDGS/ (tools/select_roi.py also needs tkinter)
+tools = [
+    "opencv-python",
+    "pillow",
+    "tqdm",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["phase_dgs"]

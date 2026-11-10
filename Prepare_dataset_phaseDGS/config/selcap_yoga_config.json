@@ -1,0 +1,134 @@
+{
+  "scene": "selcap_yoga",
+  "global": {
+    "min_frames": 3100,
+    "max_frames": 3430,
+    "max_offset": 20,
+    "frame_drop_rate": 0.1,
+    "frame_block_drop_rate": 0.1,
+    "frame_block_min_size": 5,
+    "frame_block_max_size": 30
+  },
+  "cameras": {
+    "0000": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0001": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0002": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0003": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0004": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0005": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": true
+    },
+    "0006": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0007": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0008": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0009": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": true
+    },
+    "0010": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0011": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0012": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0013": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0014": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0015": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0016": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": true
+    },
+    "0017": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0018": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0019": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0020": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0021": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0022": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    },
+    "0023": {
+      "enable_offset": true,
+      "enable_frame_drop": true,
+      "enable_frame_block": false
+    }
+  }
+}

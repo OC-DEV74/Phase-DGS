@@ -1,0 +1,16 @@
+# Phase-DGS settings, read with phase_dgs.SyncConfig.from_toml("configs/sync.toml").
+# Settings of the paper (Sec. 4.1): FreeTimeGS: FB_upsample_factor = 2.
+# RealTime-4DGS: FB_upsample_factor = 3, lambda_mono = 0.01.
+
+[sync] # Phase-DGS (paper Sec. 3, 4.1)
+enabled = true                                 # use Phase-DGS; read by your training loop (false: timestamps)
+roi_json = "datasets/jumping_dropped/roi.json" # per-camera ROIs from tools/select_roi.py
+dinov2_model = "dinov2_vitb14"                 # ViT encoder (dinov2_vits14 / vitb14 / vitl14)
+hidden_dims = [256, 128, 64]                   # phase projector hidden layers
+lambda_phase = 0.1                             # phase consistency loss weight
+lambda_mono = 0.1                              # monotonic loss weight
+lr_phase_projector = 1e-4                      # phase projector learning rate
+lr_feature_bank = 1e-3                         # feature bank learning rate
+init_feature_bank = true                       # initialize the feature bank from the train frames
+FB_upsample_factor = 1                         # feature bank length = num_frames * this
+ratio_CLS = 0.0                                # feature = ratio_CLS * CLS + (1 - ratio_CLS) * mean patch token
