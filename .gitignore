@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# data and results
+datasets/
+_output/
+Prepare_dataset_phaseDGS/source_video/
+Prepare_dataset_phaseDGS/output/
+model_sync/
+phase_graphs/
+*.pt
+*.pth
